@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "setup": "yarn vercel login && yarn vercel link",
-    "start": "yarn vercel dev",
-    "dev": "yarn start"
+    "start": "yarn vercel dev"
   },
   "repository": {
     "type": "git",
