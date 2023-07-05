@@ -1,0 +1,24 @@
+{
+  "name": "vercel-go-runtime",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "setup": "yarn vercel login && yarn vercel link",
+    "start": "yarn vercel dev",
+    "dev": "yarn start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arhamymr/vercel-go-runtime.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arhamymr/vercel-go-runtime/issues"
+  },
+  "homepage": "https://github.com/arhamymr/vercel-go-runtime#readme",
+  "dependencies": {
+    "vercel": "^31.0.1"
+  }
+}
