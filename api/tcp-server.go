@@ -8,7 +8,8 @@ import (
 )
 
 func TcpHandler(w http.ResponseWriter, r *http.Request) {
-	ln, err := net.Listen("tcp", ":8080")
+	const host = "vercel-go-runtime.vercel.app/tcp-server"
+	ln, err := net.Listen("tcp", host)
 	if err != nil {
 		fmt.Println("Error listening:", err)
 		return
